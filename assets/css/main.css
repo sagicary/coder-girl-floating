@@ -1,0 +1,116 @@
+body{
+	margin: 0 auto;
+}
+/*MENU*/
+.menup{
+	overflow: auto;
+}
+nav{
+	padding-bottom: 5px;
+}	
+ul {
+	list-style-type: none;
+	margin-right: 100px;
+}
+li {
+	float: right;
+}
+.titulo{
+	float: left;
+	padding-left: 100px;
+	color: gray;
+}
+.menu{
+	padding-right: 30px;
+	color: gray;
+}
+/*PRIMER SECTION*/
+.primero{
+	overflow: auto;
+	margin-top: 20px;
+	padding: 200px;
+	background-image: url(../img/home.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	overflow: auto;
+	width: 100%;
+}
+.participa{
+	text-align: center;
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+div .uno{
+	width:100%;
+	overflow: auto;
+	text-align: center;
+}
+.inscripcion{
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	overflow: auto;
+}
+section input{
+	position: relative;
+	left:45%;
+	right: 45%;
+}
+
+.linea{
+	width: 100%;
+	margin: 60px;
+	background-color: white;
+}
+
+/*SEGUNDO SECCION*/
+.segundo{
+	width: 100%;
+	overflow: auto;
+	background-color: yellow;
+}
+.imagen2{
+	width: 40%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	float:left;
+}
+.hack{
+	text-align: justify;
+	width: 50%;
+	float:left;
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.hack h2{
+	text-align: center;
+}
+.botonhack{
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	overflow: auto;
+	left: 0px;
+}
+
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	background-color: CornflowerBlue;
+	padding: 30px;
+	color: white;
+}
+footer span{
+	color: yellow;
+}
