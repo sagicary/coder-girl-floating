@@ -21,7 +21,7 @@
 </header>
 <section class="primero">
 	<div class="uno">
-	<h1>Chicas que cambian el mundo</h1>
+	<h1 id="cambiarmensaje">Chicas que cambian el mundo</h1>
 	<p class="participa">¡Participa en nuestras actividades!</p>
 	<input type="button" onclick="inscribete()" class="inscripcion" value="Inscríbete">
 	</div>	
@@ -29,7 +29,7 @@
 <div class="linea">
 </div>
 <section class="segundo">
-		<img src="assets/img/hackathon.jpg" class="imagen2">
+		<img src="assets/img/hackathon.jpg" class="imagen2" id="imagenhack">
 		<div class="hack">
 		<h2>Hackaton</h2>
 		<p class="">¡Participa en nuestra hackaton "Love is Respect"!</p>
@@ -45,11 +45,11 @@
 	<p> 795 Folsom Ave, Suite 600
 	<p> San Francisco, CA 94107
 	<P> Fono: (123) 456-7890</P>
-	<form class="formu">
-	<p><input class="texto" type="text" placeholder="Nombre">
-	<p><input class="texto" type="text" placeholder="Email">
-	<p><input class="texto" type="text" placeholder="Asunto">
-	<p><textarea class="texto" placeholder="Mensaje" rows="10" cols="21"></textarea>
+	<form class="formu" id="formulario">
+	<p><input class="texto" type="text" placeholder="Nombre" id="nombre">
+	<p><input class="texto" type="text" placeholder="Email" id="mail">
+	<p><input class="texto" type="text" placeholder="Asunto" id="asunto">
+	<p><textarea class="texto" placeholder="Mensaje" rows="10" cols="21" id="mensaje"></textarea>
 	<p><input type="button" onclick="contacto()" class="botoncontacto" value="Enviar">
 	</form>
 	</div>
