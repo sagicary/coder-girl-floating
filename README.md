@@ -1,4 +1,4 @@
-# coder-girl-floating
+# Ejercicio coder-girl-floating
 
 Ejercicio Enunciado coder-girl-floating, se debe replicar un sitio y poner funcionalidad a ciertos botones y al formulario de contacto.
 
